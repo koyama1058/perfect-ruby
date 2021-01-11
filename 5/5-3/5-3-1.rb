@@ -13,6 +13,8 @@ def alice?(pattern)
 end
 
 p alice?(/Alice/i)
+p alice?('alice')
+
 
 
 str = 'ruby5'
