@@ -12,4 +12,4 @@ p pattern.match('東京都新宿区市谷左内町21丁目13番地')
 pattern = /(?<!2012)-(?<month_and_day>\d{2}-\d{2})/
 
 p pattern.match('2012-01-01')
-p pattern.match('2011-01-01')
+p pattern.match('2011-01-01') 
