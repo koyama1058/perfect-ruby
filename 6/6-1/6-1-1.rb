@@ -8,4 +8,4 @@ p Class.instance_methods(false)
 # => [:allocate, :superclass, :new]
 # allocateはinitializeメソッドを実行せずにインスタンスを作るメソッド
 # newはinitializeを実行してインスタンスを作るメソッド
-# superclassはクラスの親クラスを返るメソッド
+# superclassはクラスの親クラスを返るメソッド  
